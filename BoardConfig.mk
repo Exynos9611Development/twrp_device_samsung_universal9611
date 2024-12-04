@@ -80,6 +80,7 @@ BOARD_SUPER_PARTITION_SIZE := 6365921848
 BOARD_SUPER_PARTITION_GROUPS := google_dynamic_partitions
 BOARD_GOOGLE_DYNAMIC_PARTITIONS_PARTITION_LIST := \
     system \
+    system_ext \
     vendor \
     product \
     odm
