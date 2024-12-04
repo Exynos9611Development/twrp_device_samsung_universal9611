@@ -11,7 +11,6 @@ To build:
 
 ```sh
 . build/envsetup.sh
-export ALLOW_MISSING_DEPENDENCIES=true
 lunch twrp_a51-eng
 mka recoveryimage
 ```

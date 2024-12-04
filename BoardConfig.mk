@@ -12,6 +12,8 @@
 #
 DEVICE_PATH := device/samsung/universal9611
 
+# Allow missing dependencies
+ALLOW_MISSING_DEPENDENCIES := true
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
